@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Updated - v4.5.7
 # Load configuration
 source config.sh
 
