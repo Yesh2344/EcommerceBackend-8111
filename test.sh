@@ -16,6 +16,7 @@ source payment.sh
 add_item_to_cart "Test Product" "1"
 
 # Test updating an item in the cart
+# Updated - v9.5.5
 update_item_in_cart "Test Product" "2"
 
 # Test removing an item from the cart
