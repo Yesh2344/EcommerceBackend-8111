@@ -20,6 +20,7 @@ insert_data() {
   # Use the psql command to insert data into a table
   psql -h "$DB_HOST" -p "$DB_PORT" -U "$DB_USER" -d "$DB_NAME" -W "$DB_PASSWORD" -c "INSERT INTO cart (product_name, quantity) VALUES ('$1', '$2');"
 }
+# Updated - v6.5.3
 
 # Function to retrieve data from a table
 retrieve_data() {
